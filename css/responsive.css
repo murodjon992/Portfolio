@@ -1,0 +1,52 @@
+@media(max-width: 992px){
+    .container{
+        width: auto;
+    }
+    .header_blog{
+        width: 990px;
+    } 
+    .main_blog{
+        justify-content: space-around;
+        width: 980px;
+    }
+    .footer_blog{
+        width: 980px;
+    }
+}
+@media(max-width: 768px){
+        .container{
+            width: 100%;
+        }
+        .header_title, .header_title1{
+            font-size: 25px;
+        }
+        .job{
+            font-size: 17px;
+        }
+        .header_img{
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+        }
+        .header_blog{
+            width: 760px;
+            justify-content: space-around;
+        }
+        .main_blog{
+            width: 760px;
+        }
+        .bot_blog{
+            width: 350px;
+        }
+        .left{
+            width: auto;
+        }
+        .footer_text{
+            font-size: 15px;
+        }
+        .footer_blog{
+            width: 760px;
+            justify-content: space-between;
+        }
+}
+@media(max-width: 576px){}
